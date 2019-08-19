@@ -30,43 +30,63 @@ header h1 {
     font-size: 40px;
 }
 
-#color {
-    width: 425px;
-    height: 100px;
-    box-sizing: border-box;
-    padding: 2px;
-    float: left;
-    color: #000;
-    background: rgb(134, 158, 25);
-}
-
-#cuadro1 {
-    width: 425px;
-    height: 100px;
-    margin: 5px;
-    padding: 5px;
-    float: left;
-}
-
 #cuadro2 {
-    width: 425px;
-    height: 100px;
-    margin: 5px;
-    padding: 2px;
-    float: right;
+    width: 70%;
+    height: 25vp;
+    float: left;
+    background: rgb(134, 158, 25);
+    border: 2px solid #000;
+    margin: 10px;
 }
 
-#cuadro3 {
-    width: 320px;
-    height: 300px;
-    margin: 5px;
-    padding: 2px;
+h2 {
+    font-size: 40px;
+}
+
+#texto1 {
+    width: 45%;
+    height: 20vh;
+    float: left;
+    color: white;
+    text-align: justify;
+    margin: 2%;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+#texto2 {
+    width: 45%;
+    float: right;
+    height: 20vh;
+    color: white;
+    text-align: justify;
+    margin: 2%;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+#texto3 {
+    width: 40%;
+    float: left;
+    text-align: justify;
+    margin: 2%;
+    color: white;
+    text-align: justify;
+}
+
+aside {
+    width: 50%;
+    height: 95vh;
     float: left;
 }
 
-article section image {
-    width: 35vw;
-    height: 40vh;
-    margin: calc(5%) auto;
-    float: right;
+aside img {
+    width: 100%;
+    height: 80vh;
+    display: block;
+    margin: 8%;
 }
