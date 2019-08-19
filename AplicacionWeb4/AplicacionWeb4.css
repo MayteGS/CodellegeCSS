@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background: rgb(5, 18, 77);
+    border: 5px;
+    width: 97vw;
+    height: 200vh;
+    position: absolute;
+    margin: 10px;
+    border: 2px solid #000;
+}
+
+#cuadro1 {
+    font-family: 'Viga', sans-serif;
+    background: rgb(5, 92, 92);
+    border: 5px;
+    width: 95vw;
+    height: 40vh;
+    position: absolute;
+    margin: 10px;
+    border: 2px solid #000;
+    font-size: 50px;
+}
+
+header h2 {
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgb(235, 231, 42);
+    position: absolute;
+    top: 3%;
+    left: calc(5%);
+    font-size: 60px;
+}
+
+header p {
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgb(235, 231, 42);
+    position: absolute;
+    top: calc(8%);
+    left: calc(10%);
+    font-size: 30px;
+}
+
+.boton {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#cuadro2 {
+    font-family: 'Viga', sans-serif;
+    background: #f3f3f3;
+    margin: 22px;
+    width: 95vw;
+    height: 40vh;
+    position: absolute;
+    border: 2px solid #000;
+    font-size: 50px;
+    top: calc(50%);
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+    color: #000;
+    font-size: 20px;
+    margin: 20px;
+}

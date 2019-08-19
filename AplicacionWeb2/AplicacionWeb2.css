@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background: rgb(194, 191, 191);
+    border: 8px;
+    width: 97vw;
+    height: 20vh;
+    position: relative;
+    margin: 10px;
+    border: 2px solid #000;
+}
+
+header h1 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #000;
+    position: absolute;
+    width: 30vw;
+    top: calc(20%);
+    left: calc(20%);
+    font-size: 50px;
+}
+
+#sub {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: rgb(134, 158, 25);
+    font-size: 40px;
+}
+
+#color {
+    width: 425px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 2px;
+    float: left;
+    color: #000;
+    background: rgb(134, 158, 25);
+}
+
+#cuadro1 {
+    width: 425px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+
+#cuadro2 {
+    width: 425px;
+    height: 100px;
+    margin: 5px;
+    padding: 2px;
+    float: right;
+}
+
+#cuadro3 {
+    width: 320px;
+    height: 300px;
+    margin: 5px;
+    padding: 2px;
+    float: left;
+}
+
+article section image {
+    width: 35vw;
+    height: 40vh;
+    margin: calc(5%) auto;
+    float: right;
+}
